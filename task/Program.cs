@@ -29,7 +29,7 @@ void ShowArray(string[] array)
     }
     Console.WriteLine();
 }
-string[] firstArray = new string[] {"Hello", "fic", "2", "world", ":-)"};
+string[] firstArray = new string[] {"Nic", "Hello", "fic", "2", "world", ":-)"};
 ShowArray(firstArray);
 int size = SizeNewArray(firstArray);
 string[] secondArray = ArrayOfLengthIsThree(firstArray, size);
